@@ -27,8 +27,8 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
-"Plugin 'tpope/vim-fugitive'
-"Plugin 'https://github.com/ngmy/vim-rubocop.git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'https://github.com/ngmy/vim-rubocop.git'
 
 call vundle#end()
 filetype plugin indent on
