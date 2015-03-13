@@ -27,8 +27,9 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
-Plugin 'tpope/vim-fugitive'
-Plugin 'https://github.com/ngmy/vim-rubocop.git'
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'https://github.com/ngmy/vim-rubocop.git'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
@@ -46,6 +47,8 @@ set tabstop=2
 set shiftwidth=2
 set shiftround
 set expandtab
+set foldmethod=syntax
+set foldlevelstart=99
 
 set number
 set numberwidth=4
